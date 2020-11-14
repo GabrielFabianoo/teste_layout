@@ -93,7 +93,7 @@ header {
   height: 85vh;
   background-image: url("./img/background.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-attachment: scroll;
   background-size: 105%;
   display: flex;
@@ -418,4 +418,285 @@ footer div#footerContainer div.bar div#fifthDescription {
 
 footer div#footerContainer div.bar div#sixthDescription {
   height: 65%;
+}
+
+@media screen and (max-width: 1440px) {
+  header h1 {
+    width: 85%;
+  }
+  main section div.content div#daily {
+    background-size: 120%;
+  }
+
+  footer div#footerContainer div.footerPrice {
+    font-size: 1.4em;
+  }
+
+  footer div#footerContainer div.bar div.footerDescription {
+    padding: 12px;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    background-size: 125%;
+    background-position-y: -80px;
+  }
+
+  h2.imgTitle {
+    font-family: Poppins-Medium;
+    color: whitesmoke;
+    font-size: 3em;
+  }
+
+  main section div.content div#nature {
+    background-size: 300%;
+  }
+
+  main section div.content div#daily {
+    background-size: 170%;
+    background-position-x: -100px;
+  }
+
+  main section div.content div#together {
+    background-size: 150%;
+  }
+
+  main section div.content div#analysis {
+    background-size: 150%;
+    background-position-x: -100px;
+  }
+
+  main section div.content div#picture {
+    background-size: 300%;
+    background-position-x: -250px;
+    filter: invert(100%);
+  }
+
+  footer div#footerContainer div.footerPrice {
+    font-size: 1.2em;
+  }
+
+  footer div#footerContainer div.bar div.footerDescription {
+    padding: 12px;
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-size: 150%;
+    background-position-y: 0px;
+  }
+
+  header h1 {
+    width: 70%;
+    font-size: 3em;
+  }
+
+  header button {
+    width: 50%;
+  }
+
+  h2.imgTitle {
+    font-size: 2em;
+  }
+
+  p.imgDescription {
+    font-size: 1em;
+  }
+
+  main section div.content div#nature {
+    background-size: 370%;
+  }
+
+  main section div.content div#daily {
+    background-size: 210%;
+    background-position-x: -200px;
+  }
+
+  main section div.content div#together {
+    background-size: 180%;
+  }
+
+  main section div.content div#analysis {
+    background-size: 250%;
+    background-position-x: -100px;
+  }
+
+  main section div.content div#picture {
+    background-size: 400%;
+    background-position-x: -280px;
+  }
+
+  footer div#footerContainer div.footerPrice {
+    width: 90%;
+  }
+
+  footer div#footerContainer div.bar div.footerDescription {
+    width: 90%;
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    background-size: 265%;
+  }
+  header img#logo {
+    width: 120px;
+    height: 100px;
+    margin: 130px 0 40px 0;
+  }
+
+  header h1 {
+    width: 80%;
+    font-size: 2.5em;
+  }
+
+  header button {
+    width: 50%;
+    height: 8%;
+  }
+
+  h2.imgTitle {
+    font-family: Poppins-Medium;
+    color: whitesmoke;
+    font-size: 1.5em;
+  }
+
+  p.imgDescription {
+    font-family: Poppins-Medium;
+    color: whitesmoke;
+    font-size: 0.7em;
+  }
+
+  main section div.title h2.subtitle {
+    font-size: 2em;
+  }
+
+  main section div.title p.descriptionSub {
+    font-size: 1em;
+  }
+
+  main section div.content div#nature {
+    width: 37.5%;
+    background-size: 500%;
+  }
+
+  main section div.content div#daily {
+    width: 60%;
+    background-size: 500%;
+    background-position-x: -200px;
+  }
+
+  main section div.content div#together {
+    background-size: 350%;
+  }
+
+  main section div.content div#analysis {
+    width: 60%;
+    background-size: 400%;
+    background-position-x: -250px;
+  }
+
+  main section div.content div#picture {
+    width: 37.5%;
+    background-size: 500%;
+    background-position-x: -300px;
+  }
+
+  div.titleFooter {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  footer div#footerContainer div.footerPrice {
+    height: 15%;
+    line-height: 1.3em;
+    padding: 5px;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  footer div#footerContainer div.bar div.footerDescription {
+    width: 90%;
+    padding: 5px;
+    font-size: 0.4em;
+  }
+
+  footer div#footerContainer div.bar div#firstDescription {
+    height: 17.5%;
+  }
+
+  footer div#footerContainer div.bar div#secondDescription {
+    height: 22.5%;
+  }
+
+  footer div#footerContainer div.bar div#thirdDescription {
+    height: 27.5%;
+  }
+
+  footer div#footerContainer div.bar div#fourthDescription {
+    height: 35%;
+  }
+
+  footer div#footerContainer div.bar div#fifthDescription {
+    height: 42.5%;
+  }
+
+  footer div#footerContainer div.bar div#sixthDescription {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  div.titleFooter {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    background-size: 350%;
+  }
+
+  header h1 {
+    width: 80%;
+    font-size: 2em;
+  }
+
+  div.titleFooter {
+    font-size: 0.5em;
+  }
+
+  main section div.content div#nature {
+    width: 42.5%;
+    background-size: 600%;
+    text-align: center;
+  }
+
+  main section div.content div#daily {
+    width: 55%;
+    background-size: 650%;
+    background-position-x: -200px;
+  }
+
+  main section div.content div#together {
+    background-size: 450%;
+  }
+
+  main section div.content div#analysis {
+    width: 55%;
+    background-size: 600%;
+    background-position-x: -250px;
+  }
+
+  main section div.content div#picture {
+    width: 42.5%;
+    background-size: 600%;
+    background-position-x: -350px;
+  }
 }
