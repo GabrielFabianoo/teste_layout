@@ -1,5 +1,5 @@
 /* 
-*{} -> reset
+{} -> reset
 body
 
 <----header--->
@@ -13,17 +13,15 @@ header button:hover
 <----main--->
 main
 main section
-div.title
-h2.subtitle
-p.descriptionSub
-
+main section div.title
+main section div.title h2.subtitle 
+main section div.title p.descriptionSub
 
 main section div.content
 main section div.content div.column
 
 h2.imgTitle
 p.imgDescription 
-
 
 main section div.content div#nature
 main section div.content div#nature:hover 
@@ -40,50 +38,34 @@ main section div.content div#analysis:hover
 main section div.content div#picture
 main section div.content div#picture:hover 
 
-
 <------Footer---->
 
 footer
 
-footer div#cabeçalho
-footer div#cabeçalho h2#subtitleFooter
-footer div#cabeçalho p#descriptionFooter
+footer div.titleFooter
+footer div.titleFooter h2.subtitleFooter
+footer div.titleFooter p.descriptionSubFooter
 
 footer div#footerContainer
+footer div#footerContainer div.bar
+
 footer div#footerContainer div.footerPrice
+footer div#footerContainer div.footerPrice:hover  
 
-footer div#footerContainer div#first
-footer div#footerContainer div#first div#firstDescription 
+footer div#footerContainer div.bar div.footerDescription
+footer div#footerContainer div.bar div.footerDescription:hover 
 
-footer div#footerContainer div#second
-footer div#footerContainer div#second div#secondDescription 
-
-footer div#footerContainer div#third
-footer div#footerContainer div#third div#thirdDescription 
-
-
-footer div#footerContainer div#fourth
-footer div#footerContainer div#fourth div#fourthDescription 
-
-
-footer div#footerContainer div#fifth
-footer div#footerContainer div#fifth div#fifthDescription 
-
-
-footer div#footerContainer div#sixth
-footer div#footerContainer div#sixth div#fifthDescription 
-
-
+footer div#footerContainer div.bar div#firstDescription 
+footer div#footerContainer div.bar div#secondDescription 
+footer div#footerContainer div.bar div#thirdDescription 
+footer div#footerContainer div.bar div#fourthDescription
+footer div#footerContainer div.bar div#fifthDescription 
+footer div#footerContainer div div#fifthDescription 
 */
 
 @font-face {
   font-family: Poppins-Medium;
   src: url("./font/Poppins-Medium.ttf");
-}
-
-@font-face {
-  font-family: Poppins-ExtraBold;
-  src: url("./font/Poppins-ExtraBold.ttf");
 }
 @font-face {
   font-family: Poppins-Light;
@@ -104,7 +86,7 @@ body {
   max-width: 100%;
 }
 
-/* CABEÇALHO */
+/* HEADER */
 
 header {
   width: 100%;
@@ -165,7 +147,7 @@ button:hover {
   color: #000000;
 }
 
-/* CONTEÚDO */
+/* MAIN */
 
 main {
   width: 100%;
@@ -183,7 +165,7 @@ main section {
   align-items: center;
 }
 
-div.title {
+main section div.title {
   width: 85%;
   height: 20%;
   display: flex;
@@ -191,21 +173,20 @@ div.title {
   justify-content: center;
 }
 
-h2.subtitle {
+main section div.title h2.subtitle {
   font-family: Poppins-Medium;
   font-weight: bold;
   font-size: 4em;
   color: #c0c0c0;
 }
 
-p.descriptionSub {
+main section div.title p.descriptionSub {
   font-family: Poppins-Medium;
   font-weight: bold;
   font-size: 1.5em;
   color: #c0c0c0;
 }
 
-/* ---------------------------- */
 main section div.content {
   width: 85%;
   height: 160%;
