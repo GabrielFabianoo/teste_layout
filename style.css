@@ -497,6 +497,7 @@ footer div#footerContainer div.bar div#sixthDescription {
 
   header button {
     width: 50%;
+    margin: 30px;
   }
 
   h2.imgTitle {
@@ -692,6 +693,11 @@ footer div#footerContainer div.bar div#sixthDescription {
   }
 
   div.titleFooter {
+    font-size: 0.5em;
+  }
+
+  footer div#footerContainer div.footerPrice {
+    text-align: center;
     font-size: 0.5em;
   }
 }
