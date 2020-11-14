@@ -558,6 +558,7 @@ footer div#footerContainer div.bar div#sixthDescription {
   header button {
     width: 50%;
     height: 8%;
+    margin-top: 25px;
   }
 
   h2.imgTitle {
@@ -608,7 +609,7 @@ footer div#footerContainer div.bar div#sixthDescription {
   }
 
   div.titleFooter {
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-align: center;
     margin-top: 20px;
   }
@@ -652,13 +653,7 @@ footer div#footerContainer div.bar div#sixthDescription {
   }
 }
 
-@media screen and (max-width: 425px) {
-  div.titleFooter {
-    font-size: 0.7em;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   header {
     background-size: 350%;
   }
@@ -666,10 +661,6 @@ footer div#footerContainer div.bar div#sixthDescription {
   header h1 {
     width: 80%;
     font-size: 2em;
-  }
-
-  div.titleFooter {
-    font-size: 0.5em;
   }
 
   main section div.content div#nature {
@@ -698,5 +689,9 @@ footer div#footerContainer div.bar div#sixthDescription {
     width: 42.5%;
     background-size: 600%;
     background-position-x: -350px;
+  }
+
+  div.titleFooter {
+    font-size: 0.5em;
   }
 }
