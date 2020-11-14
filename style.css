@@ -553,13 +553,24 @@ footer div#footerContainer div.bar div#sixthDescription {
 
   header h1 {
     width: 80%;
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   header button {
     width: 50%;
     height: 8%;
-    margin-top: 10px;
+
+    font-size: 1em;
+    margin-top: 20px;
+  }
+
+  main section div.title {
+    margin: 50px;
+    text-align: center;
+  }
+
+  main section div.content {
+    margin: 50px;
   }
 
   h2.imgTitle {
@@ -619,7 +630,7 @@ footer div#footerContainer div.bar div#sixthDescription {
     height: 15%;
     line-height: 1.3em;
     padding: 5px;
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-align: center;
   }
 
@@ -661,7 +672,7 @@ footer div#footerContainer div.bar div#sixthDescription {
 
   header h1 {
     width: 80%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   main section div.content div#nature {
